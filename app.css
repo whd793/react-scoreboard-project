@@ -137,12 +137,18 @@ svg {
     font-size: 1.15em;
     border: none;
     outline: none;
-    visibility: hidden;
-    color: #EF5350;
+    /* visibility: hidden; */
+    color: #DCDCDC;
     cursor: pointer;
     margin: 0 10px 0 0;
-    padding: 0;
-    background: none;
+    padding: 20px;
+    background: #EF5350;
+    font-weight: bold;
+  }
+
+  .remove-player:hover {
+    background: #DCDCDC;
+    color: #EF5350;
   }
 
 .stats,
